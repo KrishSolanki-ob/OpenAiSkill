@@ -26,9 +26,7 @@ public class MainActivity extends AppCompatActivity {
                         if (uri != null) {
                             selectedImageUri = uri;
                             imagePreview.setImageURI(uri);
-                            txtStatus.setText(
-                                    "Image selected. Ready to analyze."
-                            );
+                            txtStatus.setText("Image selected. Ready to analyze.");
                             txtMetadata.setText("");
                             btnAnalyze.setEnabled(true);
                         }
