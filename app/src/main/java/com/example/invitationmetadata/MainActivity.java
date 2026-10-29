@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     private ImageView imagePreview;
+    private TextView textView;
     private TextView txtStatus;
     private TextView txtMetadata;
     private Button btnAnalyze;
